@@ -1,0 +1,9 @@
+# License
+
+The audio files in this repository are licensed under the 
+Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Copyright (c) 2026 Fascinator Productions (https://sites.google.com/view/fascinator-production)

@@ -1,0 +1,51 @@
+<!-- Responsive Table Container -->
+<div style="overflow-x: auto; width: 100%;">
+  <table style="width: 100%; min-width: 650px; border-collapse: collapse; font-family: sans-serif;">
+    <thead>
+      <tr style="background-color: #f2f2f2; text-align: left;">
+        <th style="padding: 10px; border-bottom: 2px solid #ddd;">Track Title</th>
+        <th style="padding: 10px; border-bottom: 2px solid #ddd;">Audio Player</th>
+        <th style="padding: 10px; border-bottom: 2px solid #ddd;">Date</th>
+        <th style="padding: 10px; border-bottom: 2px solid #ddd;">Genre</th>
+        <th style="padding: 10px; border-bottom: 2px solid #ddd;">Description</th>
+      </tr>
+    </thead>
+    <tbody id="music-table-body">
+      <!-- Rows will be injected here by JavaScript -->
+    </tbody>
+  </table>
+</div>
+
+<script>
+  // Your Music Library JSON Array used to populate the table dynamically
+  const jsonUrl = "https://fascinator-productions.github.io/music-links1/track-list1.json";
+
+  fetch(jsonUrl)
+    .then(response => response.json())
+    .then(musicLibrary => {
+      renderMusicLibrary(musicLibrary);
+    })
+    .catch(error => {
+      console.error("Error loading music library:", error);
+      document.getElementById('music-table-body').innerHTML = 
+        '<tr><td colspan="6" style="padding:10px; color:red;">Failed to load music library. 🤔</td></tr>';
+    });
+
+  function renderMusicLibrary(data) {
+    const tbody = document.getElementById('music-table-body');
+    tbody.innerHTML = data.map(track => `
+      <tr>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">${track.title}</td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">
+          <audio controls preload="metadata">
+            <source src="${track.ogg}" type="audio/ogg">
+            <source src="${track.mp3}" type="audio/mpeg">
+          </audio>
+        </td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">${track.date}</td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">${track.genre}</td>
+        <td style="padding: 10px; border-bottom: 1px solid #ddd;">${track.description}</td>
+      </tr>
+    `).join('');
+  }
+</script>

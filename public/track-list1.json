@@ -13,7 +13,7 @@
     "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/progress1-beatsdub1-12jun26.mp3",
     "date": "2026-06-12",
     "genre": "Synthwave",
-    "description": "A twilight journey through an ultra-modern metropolis - beats dub."
+    "description": "A dub-wise breakdown of a symphonic transition through a techo-landscape."
   },
   {
     "title": "Progress (Voco Mix)",
@@ -22,6 +22,14 @@
     "date": "2026-06-12",
     "genre": "Synthwave",
     "description": "An aternative mix of the original track, featuring additional vocoded speech."
+  }, 
+  {
+    "title": "Progress (Main Mix)",
+    "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/progress1-main-mix1-2jun26.ogg",
+    "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/progress1-main-mix1-2jun26.mp3",
+    "date": "2026-06-12",
+    "genre": "Synthwave",
+    "description": "A twilight journey through an ultra-modern metropolis set to a classical sythwave soundtrack."
   },
   {
     "title": "Arrival (Beats Dub)",

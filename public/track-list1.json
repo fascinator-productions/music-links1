@@ -46,6 +46,29 @@
     "date": "2026-03-10",
     "genre": "Synthwave",
     "description": "An instrumental version of the original track sans beats."
+  },
+  {
+    "title": "Walkway",
+    "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/walkway-31jan16.ogg",
+    "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/walkway-31jan16.mp3",
+    "date": "2016-02-31",
+    "genre": "Electronic",
+    "description": "Uplifting jazzy vibes, looking skywards to elevated structures."
+  },
+  {
+    "title": "High Rise",
+    "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/high-rise-24-9-15.mp3",
+    "date": "2015-09-24",
+    "genre": "Electronic",
+    "description": "Vertical Drum 'n' Beats off the wall."
+  },
+  {
+    "title": "Dark Organs",
+    "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/dark-organs1-1sept14.ogg",
+    "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/dark-organs1-1sept14.mp3",
+    "date": "2014-09-01",
+    "genre": "Electronic",
+    "description": "Subterranean laboratory experiment in sound."
   }
 
   

@@ -48,6 +48,13 @@
     "description": "An instrumental version of the original track sans beats."
   },
   {
+    "title": "Tranquility",
+    "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/tranquility-17may16.ogg",
+    "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/tranquility-17may16.mp3",
+    "date": "2016-05-17",
+    "genre": "Ambient",
+    "description": ""
+  },{
     "title": "Walkway",
     "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/walkway-31jan16.ogg",
     "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/walkway-31jan16.mp3",
@@ -68,6 +75,13 @@
     "date": "2015-09-24",
     "genre": "Electronic",
     "description": "Vertical Drum 'n' Beats off the wall."
+  },{
+    "title": "Dubstep Experiment",
+    "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/dubstep-experiment4-13jan15.ogg",
+    "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/dubstep-experiment4-13jan15.mp3",
+    "date": "2015-01-13",
+    "genre": "Dubstep",
+    "description": ""
   },
   {
     "title": "Dark Organs",
@@ -94,7 +108,7 @@
     "description": ""
   },
   {
-    "title": "Garage Orchestras",
+    "title": "Garage Orchestra",
     "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/garage-orchestra1-19sept2014.ogg",
     "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/garage-orchestra1-19sept2014.mp3",
     "date": "2014-09-19",

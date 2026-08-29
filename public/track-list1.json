@@ -1,11 +1,19 @@
 [
   {
     "title": "Packman (Main Mix)",
-    "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/packman1-main_mix1-19aug26.ogg",
-    "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/packman1-main_mix1-19aug26.mp3",
+    "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/packman-main-mix1-19Aug26.ogg",
+    "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/packman-main-mix1-19Aug26.mp3",
     "date": "2026-08-19",
     "genre": "Synthwave",
     "description": "80's arena synthwave with a touch of shady New York vibes. 'I was thinking..''"
+  }, 
+  {
+    "title": "Packman (Instrumental)",
+    "ogg": "https://fascinator-productions.github.io/music-links1/assets/audio/packman-instrumental-29Aug26.ogg",
+    "mp3": "https://fascinator-productions.github.io/music-links1/assets/audio/packman-instrumental-29Aug26.mp3",
+    "date": "2026-08-29",
+    "genre": "Synthwave",
+    "description": "Sans beats, giving those classic analogue synths space to breathe."
   },
   {
     "title": "Progress (Beats Dub)",
